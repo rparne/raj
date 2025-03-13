@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.header_div {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+    color: #6b3a3a;
+}
+
+#nav_div {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #00000043;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.nav_item {
+    cursor: pointer;
+    color: #6b473a;
+}
+
+.nav_item:hover {
+    text-decoration: underline;
+}
+
+#content_div {
+    margin-top: 20px;
+}
